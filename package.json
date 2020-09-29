@@ -4,7 +4,7 @@
   "description": "Sampel app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Warning: No test Created\"",
     "dev": "nodemon ./index.js localhost 8082"
   },
   "keywords": [
@@ -22,7 +22,10 @@
     "app",
     "api"
   ],
-  "author": "Pritesh Patel <sample@gb.ca>",
+  "author": {
+    "name": "Pritesh Patel",
+    "email": "sample@gb.ca"
+  },
   "homepage": "https://nodejs.org/",
   "license": "ISC",
   "dependencies": {
@@ -30,12 +33,5 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AneekaShah/NodeJs_TravisCi_mon.git"
-  },
-  "bugs": {
-    "url": "https://github.com/AneekaShah/NodeJs_TravisCi_mon/issues"
   }
 }
